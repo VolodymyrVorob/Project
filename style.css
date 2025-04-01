@@ -1,0 +1,32 @@
+.up {
+    /* Rectangle 1 */
+
+position: absolute;
+width: 1456px;
+height: 107px;
+left: 0px;
+top: 0px;
+
+background: #2B3E78;
+
+}
+.contact{
+    /* CONTACT US */
+
+position: absolute;
+width: 208px;
+height: 39px;
+left: 81px;
+top: 34px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
