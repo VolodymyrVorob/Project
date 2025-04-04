@@ -1,36 +1,36 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    
-}
-.header {
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #0A1A2A;
     padding: 20px;
-    text-align: center;
 }
-.logo {
+
+.menu {
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+.logo-text {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     display: flex;
     align-items: center;
 }
-.ul {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    justify-content: center;
+
+
+.menu-element{
+    font-size: 20px;
 }
-
-
 
 .contact-btn {
     background: #FFD700;
