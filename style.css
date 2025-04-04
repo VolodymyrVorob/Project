@@ -11,8 +11,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0A1A2A;
-    padding: 15px 50px;
+    background-color: #0A1A2A;
+    padding: 20px;
+    text-align: center;
 }
 .logo {
     color: white;
@@ -21,9 +22,12 @@ body {
     display: flex;
     align-items: center;
 }
-.nav {
+.ul {
     display: flex;
     gap: 20px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
 }
 
 
