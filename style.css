@@ -11,8 +11,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0A1A2A;
-    padding: 20 px;
+    background-color: #0A1A2A;
+    padding: 20px;
     text-align: center;
 }
 .logo {
