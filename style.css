@@ -40,12 +40,16 @@
 .contact-btn:hover {
     background: #E6C300;
 }
+.body {
+    background-color: rgb(21,21,86);
+}
 .shatl{
 position: absolute;
 width: 617.92px;
 height: 81.26px;
 left: 94px;
 top: 0.32px;
+margin-top: 600px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
