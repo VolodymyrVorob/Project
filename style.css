@@ -370,3 +370,29 @@ font-size: 24px;
 line-height: 29px;
 color: #FFFFFF;
 }
+.buy-btn{
+position: absolute;
+width: 561px;
+height: 119px;
+left: 461px;
+top: 2346px;
+margin-top: 600px;
+background: #6D2E2E;
+border-radius: 180px;
+}
+.text_buy{
+/* Замовити подорож */
+
+position: absolute;
+width: 480.92px;
+height: 84.05px;
+left: 502px;
+top: 2380.45px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+margin-top: 600px;
+}
