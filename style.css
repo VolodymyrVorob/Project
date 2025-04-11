@@ -372,3 +372,203 @@ font-size: 24px;
 line-height: 29px;
 color: #FFFFFF;
 }
+.buy-btn{
+position: absolute;
+width: 561px;
+height: 119px;
+left: 461px;
+top: 2346px;
+margin-top: 600px;
+background: #6D2E2E;
+border-radius: 180px;
+}
+.text_buy{
+/* Замовити подорож */
+
+position: absolute;
+width: 480.92px;
+height: 84.05px;
+left: 502px;
+top: 2380.45px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+margin-top: 600px;
+}
+.footerblock {
+position: absolute;
+width: 100%;
+height: 149px;
+top: 2596px;
+margin-top: 600px;
+background: #2B3E78;
+opacity: 0.8;
+}
+.footertext1 {
+position: absolute;
+width: 249px;
+height: 39px;
+left: 28px;
+top: 2612px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+color: #FFFFFF;
+margin-top: 600px;
+
+}
+.footertext2 {
+position: absolute;
+width: 233px;
+height: 72px;
+left: 28px;
+top: 2662px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 600px;
+}
+.footertext3 {
+    margin-top: 600px;
+position: absolute;
+width: 59px;
+height: 24px;
+left: 369px;
+top: 2613px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.footertext4 {
+position: absolute;
+width: 86px;
+height: 24px;
+left: 556px;
+top: 2612px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+margin-top: 600px;
+color: #FFFFFF;
+}
+.footertext5 {
+position: absolute;
+width: 106px;
+height: 24px;
+left: 768px;
+top: 2612px;
+margin-top: 600px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.footertext6 {
+position: absolute;
+width: 97px;
+height: 115px;
+left: 356px;
+top: 2633px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 22px;
+color: #FFFFFF;
+margin-top: 600px;
+line-height: 2;
+}
+.footertext7 {
+position: absolute;
+width: 121px;
+height: 120px;
+left: 550px;
+top: 2628px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 24px;
+color: #FFFFFF;
+margin-top: 605px;
+line-height: 2;
+display: flex;
+flex-direction: column;
+}
+.footertext8 {
+position: absolute;
+width: 140px;
+height: 24px;
+left: 772px;
+top: 2650px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 24px;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+margin-top: 580px;
+line-height: 2;
+}
+.footertext9 {
+position: absolute;
+width: 373px;
+height: 29px;
+left: 1064px;
+top: 2696px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: flex-end;
+color: #E7F617;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+margin-top: 600px;
+}
+.footerimg1 {
+position: absolute;
+width: 70px;
+height: 70px;
+left: 1100px;
+top: 2617px;
+background: url(image.png);
+margin-top: 600px;
+}
+.footerimg2 {
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1205px;
+top: 2614px;
+background: url(image.png);
+margin-top: 600px;
+}
+.footerimg3 {
+position: absolute;
+width: 73px;
+height: 73px;
+left: 1319px;
+top: 2614px;
+background: url(image);
+margin-top: 600px;
+}
