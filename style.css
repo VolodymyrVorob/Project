@@ -125,68 +125,56 @@ height: 326px;
 border-radius: 90px;
 }
 .room{
-    position: absolute;
     width: 617.92px;
     height: 81.26px;
-    left: 73px;
-    top: 589.58px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
-    margin-top: 700px;
+    font-size: 36px;
     line-height: 58px;
     color: #FFFFFF;
 }
 .roomblock {
-position: absolute;
 width: 1383px;
 height: 526px;
-left: 36px;
-margin-top: 700px;
-top: 569px;
+margin-top:30px ;
+margin-left: 70px;
+align-items: center;
 background: rgba(242, 84, 84, 0.6);
 border-radius: 50px;
+display: flex;
+justify-content: space-between;
 }
 .roomcheep {
-position: absolute;
 width: 359px;
 height: 359px;
-margin-top: 700px;
-left: 288px;
-top: 589px;
 border-radius: 60px;
+margin-left: 160px;
+margin-bottom: 40px;
 }
 .roomex {
-position: absolute;
 width: 359px;
 height: 359px;
-left: 827px;
-margin-top: 700px;
-top: 589px;
 border-radius: 60px;
+margin-bottom: 0px;
+margin-right: 8px;
+
 }
 .roomcheeptx {
-position: absolute;
 width: 617.92px;
 height: 81.26px;
-left: 179px;
-top: 973.58px;
-margin-top: 700px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 39px;
 color: #FFFFFF;
+margin-bottom: 40px;
+margin-left: 30px;
 }
 .roomextx {
-position: absolute;
 width: 617.92px;
 height: 81.26px;
-margin-top: 700px;
-left: 785px;
-top: 961.58px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -195,12 +183,8 @@ line-height: 39px;
 color: #FFFFFF;
 }
 .delivery {
-position: absolute;
 width: 617.92px;
 height: 81.26px;
-left: 47px;
-margin-top: 700px;
-top: 1127.58px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -209,40 +193,30 @@ line-height: 58px;
 color: #FFFFFF;
 }
 .deliveryblock {
-position: absolute;
 width: 1383px;
 height: 526px;
-left: 35px;
-margin-top: 700px;
-top: 1118px;
 background: rgba(235, 153, 153, 0.6);
 border-radius: 50px;
+margin-top: 30px;
+margin-left: 70px;
+display: flex;
+justify-content: space-between;
+padding-top: 70px;
 }
 .delivery1 {
-position: absolute;
 width: 391px;
 height: 391px;
-margin-top: 700px;
-left: 77px;
-top: 1199px;
 border-radius: 90px;
+padding-left: 30px;
 }
 .delivery2 {
-position: absolute;
 width: 386px;
 height: 386px;
-left: 763px;
-margin-top: 700px;
-top: 1199px;
 border-radius: 90px;
 }
 .delivery1tx {
-position: absolute;
 width: 266.75px;
-height: 295.38px;
-left: 513px;
-margin-top: 700px;
-top: 1272.25px;
+height: 295.38px;;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -251,12 +225,8 @@ line-height: 29px;
 color: #FFFFFF;
 }
 .delivery2tx {
-position: absolute;
 width: 266.75px;
 height: 295.38px;
-left: 1160px;
-top: 1272.25px;
-margin-top: 700px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -265,12 +235,8 @@ line-height: 29px;
 color: #FFFFFF;
 }
 .syveniru {
-position: absolute;
 width: 617.92px;
 height: 81.26px;
-margin-top: 700px;
-left: 59px;
-top: 1691.58px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -279,63 +245,45 @@ line-height: 58px;
 color: #FFFFFF;
 }
 .syvenirublock {
-position: absolute;
 width: 1383px;
 height: 526px;
-margin-top: 700px;
-left: 44px;
-top: 1689px;
 background: rgba(238, 207, 207, 0.6);
 border-radius: 50px;
+display: flex;
+justify-content: space-between;
+padding-top: 70px;
+margin-left: 70px;
 }
 .gun {
-position: absolute;
 width: 335px;
 height: 335px;
-left: 105px;
-margin-top: 700px;
-top: 1757px;
 border-radius: 90px;
+margin-left: 50px;
 }
 .wear {
-position: absolute;
 width: 342px;
 height: 342px;
-left: 556px;
-margin-top: 700px;
-top: 1750px;
 border-radius: 90px;
 }
 .cup {
-position: absolute;
 width: 350px;
 height: 350px;
-left: 1014px;
-margin-top: 700px;
-top: 1738px;
 border-radius: 90px;
 }
 .guntx {
-position: absolute;
 width: 371.95px;
 height: 54.77px;
-left: 96px;
-top: 2109.35px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-margin-top: 700px;
 font-size: 24px;
 line-height: 29px;
 color: #FFFFFF;
+margin-left: 50px;
 }
 .weartx {
-position: absolute;
 width: 428.91px;
 height: 92.05px;
-left: 527px;
-margin-top: 700px;
-top: 2106.4px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
@@ -344,12 +292,8 @@ line-height: 29px;
 color: #FFFFFF;
 }
 .cuptx {
-position: absolute;
 width: 400.94px;
 height: 68.98px;
-left: 998px;
-margin-top: 700px;
-top: 2095.4px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
