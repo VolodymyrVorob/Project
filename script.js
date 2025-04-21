@@ -1,5 +1,4 @@
 let sections = document.querySelectorAll('.shatls-block, .souvenirs-block, .room-block, .delivery-block')
-// Отримуємо елементи
 let byeBtn = document.querySelector(".buy-btn");  // Кнопка відкриття
 let modal = document.getElementById("myModal");       // Модальне вікно
 let overlay = document.getElementById("overlay");     // Затемнений фон
@@ -29,7 +28,10 @@ sections.forEach((section) => {
 //array and object
 
 byeBtn.addEventListener("click",() => {
-    console.log(selectedCards["delivery-block"].querySelector('.text').innerHTML)
+modal.querySelector('.shatl-name').innerHTML = selectedCards["shatls-block"].querySelector("span").innerHTML
+modal.querySelector('.room-name').innerHTML = selectedCards["room-block"].querySelector("span").innerHTML
+modal.querySelector('.delivery-name').innerHTML = selectedCards["delivery-block"].querySelector("span").innerHTML
+modal.querySelector('.souvenirs-name').innerHTML = selectedCards["souvenirs-block"].querySelector("span").innerHTML
     
 })
 

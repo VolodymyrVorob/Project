@@ -35,8 +35,8 @@
       
         <div class="card">
           <img src="/img/image 1 (1).png" class="shatl-img" />
-          <h2 class="text shatl-desc">
-            Люксовий одномісний шатл “Мрія” -весь космічний простір тільки для
+          <h2 class="text shatl-desc" data-shatl="Мрія">
+            Люксовий одномісний шатл “<span>Мрія</span>” -весь космічний простір тільки для
             вас.
           </h2>
         </div>
@@ -44,14 +44,14 @@
         <div class="card">
           <img src="/img/image 2.png" class="shatl-img" />
           <h2 class="text shatl-desc">
-            Десятимісний шатл “Бавовна” - Космос для всієї сім’ї
+            Десятимісний шатл “<span>Бавовна</span>” - Космос для всієї сім’ї
           </h2>
         </div>
 
         <div class="card">
           <img src="/img/image 3.png" class="shatl-img" />
           <h2 class="text shatl-desc">
-            Шатл на сто місць “Бабка” - досліджуйте світ з любою кількістю
+            Шатл на сто місць “<span>Бабка</span>” - досліджуйте світ з любою кількістю
             грошей
           </h2>
         </div>
@@ -63,14 +63,14 @@
         <div class="card">
           <img src="/img/image 4.png" class="room-img" />
           <h2 class="text room-desc">
-            Звичайна каюта: дешева, проте достатньо зручна
+            <span>Звичайна каюта</span>: дешева, проте достатньо зручна
           </h2>
         </div>
 
         <div class="card">
           <img src="/img/image 5.png" class="room-img" />
           <h2 class="text room-desc">
-            Люксова каюта: набагато дорожче, зате повністю підготована покращити
+            <span>Люксова каюта</span>: набагато дорожче, зате повністю підготована покращити
             ваш досвід від польоту
           </h2>
         </div>
@@ -82,14 +82,14 @@
         <div class="card delivery-card">
           <img src="/img/image.png" class="delivery-img" />
           <p class="text delivery-text">
-            Зневоднення: дешевший варіант криокапсули, вас висушать, а потім знову
+            <span>Зневоднення</span>: дешевший варіант криокапсули, вас висушать, а потім знову
             відновлять, період пристосування 1-2 тижні
           </p>
         </div>
         
         <div class="card delivery-card">  
                   <p class="text delivery-text">
-            Заморозка: дорогий проте зручний варіант, вас заморозять, а потім
+            <span>Заморозка</span>: дорогий проте зручний варіант, вас заморозять, а потім
             розморозять. Адаптація до 1 доби.
           </p>
           <img src="/img/image 6.png" class="delivery-img" />
@@ -102,7 +102,7 @@
         <div class="card">
           <img src="/img/image 7.png" class="souvenirs-img" />
           <h2 class="text souvenirs-text">
-            Пістолет Astrovoyage: лазерний пістолет зниженої до рівня іграшки
+            <span>Пістолет Astrovoyage</span>: лазерний пістолет зниженої до рівня іграшки
             потужності
           </h2>
         </div>
@@ -110,7 +110,7 @@
         <div class="card">
           <img src="/img/image 9.png" class="souvenirs-img" />
           <h2 class="text souvenirs-text">
-            Скафандр Astrovoyage: декоративний скафандр для ваших кімнат (тільки
+            <span>Скафандр Astrovoyage</span>: декоративний скафандр для ваших кімнат (тільки
             як декорація)
           </h2>
         </div>
@@ -118,7 +118,7 @@
         <div class="card">
           <img src="/img/image 12.png" class="souvenirs-img" />
           <h2 class="text souvenirs-text">
-            Термос Astrovoyage: термос, що витримує навіть холод космосу
+            <span>Термос Astrovoyage</span>: термос, що витримує навіть холод космосу
           </h2>
         </div>
       </div>
@@ -131,22 +131,11 @@
     <div id="myModal" class="modal">
       <div class="modal-content">
         <span class="close">&times;</span>
-        <h2>Бронювання столика</h2>
-        <form id="bookingForm">
-          <label for="name">Ім'я:</label>
-          <input type="text" id="name" name="name" required>
-    
-          <label for="phone">Телефон:</label>
-          <input type="text" id="phone" placeholder="Ваш телефон" required>
-    
-          <label for="date">Дата:</label>
-          <input type="date" id="date" name="date" required>
-    
-          <label for="time">Час:</label>
-          <input type="time" id="time" name="time" required>
-    
-          <button type="submit">Забронювати</button>
-        </form>
+        <h2>Бронювання польоту</h2>
+        <p class="shatl-name"></p>
+        <p class="room-name"></p>
+        <p class="delivery-name"></p>
+        <p class="souvenirs-name"></p>
       </div>
     </div>
 
