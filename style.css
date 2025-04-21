@@ -435,3 +435,105 @@ footer{
       /* width: 100%; */
     }
   }
+
+  
+/* Затемнений фон */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Напівпрозорий чорний фон */
+  z-index: 999;
+}
+/* Стиль модального вікна */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #8B5E3B, #5A3825); /* Перехід між відтінками коричневого */
+  color: #fff; /* Білий текст */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 380px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  animation: fadeIn 0.3s ease-in-out;
+}
+/* Анімація появи */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translate(-50%, -55%);
+  }
+  to {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+  }
+}
+/* Стиль заголовка */
+.modal h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+/* Закриваюча кнопка */
+.close {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: #ffcc99;
+}
+
+/* Стилі для форми */
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Стиль для полів введення */
+.modal input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+  color: #5A3825;
+  transition: 0.3s;
+}
+
+.modal input:focus {
+  border: 2px solid #ffcc99;
+}
+
+/* Стиль кнопки */
+.modal button {
+  background: #D2691E; /* Темно-коричневий */
+  color: #fff;
+  font-size: 18px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.modal button:hover {
+  background: #A0522D; /* Трохи темніший відтінок */
+}
