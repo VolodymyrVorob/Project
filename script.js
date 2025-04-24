@@ -18,9 +18,9 @@ sections.forEach((section) => {
         cards.forEach((card)=> {
             card.addEventListener('click', () => {
                 cards.forEach((c) => {
-                    c.style.border = ""
+                    c.classList.remove('selected-card');
                 })
-                card.style.border = "1px solid green"
+                card.classList.add('selected-card');
                 selectedCards[sectionClass] = card;
             })
         })
@@ -28,10 +28,10 @@ sections.forEach((section) => {
 //array and object
 
 byeBtn.addEventListener("click",() => {
-modal.querySelector('.shatl-name').innerHTML = selectedCards["shatls-block"].querySelector("span").innerHTML
-modal.querySelector('.room-name').innerHTML = selectedCards["room-block"].querySelector("span").innerHTML
-modal.querySelector('.delivery-name').innerHTML = selectedCards["delivery-block"].querySelector("span").innerHTML
-modal.querySelector('.souvenirs-name').innerHTML = selectedCards["souvenirs-block"].querySelector("span").innerHTML
+modal.querySelector('.shatl-name').innerHTML = ("Шатл:&nbsp;&nbsp;&nbsp;" + selectedCards["shatls-block"].querySelector("span").innerHTML)
+modal.querySelector('.room-name').innerHTML = ("Каюта:&nbsp;&nbsp;&nbsp;" + selectedCards["room-block"].querySelector("span").innerHTML)
+modal.querySelector('.delivery-name').innerHTML = ("Доставка:&nbsp;&nbsp;&nbsp;" + selectedCards["delivery-block"].querySelector("span").innerHTML)
+modal.querySelector('.souvenirs-name').innerHTML = ("Сувенір:&nbsp;&nbsp;&nbsp;" + selectedCards["souvenirs-block"].querySelector("span").innerHTML)
     
 })
 
