@@ -104,16 +104,16 @@ margin: 25px;
 }
 
 .card{
-    width:350px ;
+    width:30% ;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 
 
 .shatl-img{
-width: 326px;
-height: 326px;
+width: 300px;
+height: 300px;
 
 border-radius: 90px;
 }
@@ -163,8 +163,8 @@ margin: 0 auto;
 padding:20px;
 }
 .room-img {
-width: 359px;
-height: 359px;
+width: 330px;
+height: 330px;
 border-radius: 60px;
 }
 
@@ -533,7 +533,7 @@ footer{
 
 
 /* Стиль кнопки */
-.modal button {
+.modal-button {
   background: #D2691E; /* Темно-коричневий */
   color: #fff;
   font-size: 18px;
@@ -542,8 +542,10 @@ footer{
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
+  margin-top: 15px;
+  padding: 25px;
 }
 
-.modal button:hover {
+.modal-button:hover {
   background: #A0522D; /* Трохи темніший відтінок */
 }
