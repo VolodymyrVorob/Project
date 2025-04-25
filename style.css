@@ -457,7 +457,7 @@ footer{
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  background: linear-gradient(135deg, #8B5E3B, #5A3825); /* Перехід між відтінками коричневого */
+  background: linear-gradient(135deg, #84868a, #72757d); /* Перехід між відтінками коричневого */
   color: #fff; /* Білий текст */
   padding: 25px;
   border-radius: 12px;
@@ -509,7 +509,7 @@ footer{
 /* Стиль для полів введення */
 .shatl-name, .delivery-name, .room-name, .souvenirs-name {
   width: 100%;
-  background-color: #FAEBD7; /* Кремовий фон для тексту */
+  background-color: #c4c7cf; /* Кремовий фон для тексту */
   color: #333333; /* Темний текст */
   padding: 15px;
   border-radius: 5px;
@@ -520,8 +520,8 @@ footer{
   margin-top: 15px;
 }
 
-.shatl-name, .delivery-name, .room-name, .souvenirs-name :focus {
-  border: 2px solid #ffcc99;
+.shatl-name, .delivery-name, .room-name, .souvenirs-name{
+  border: 2px solid #000000;
 }
 .selected-card {
   border: 2px solid #00FF7F; /* Світло-зелена рамка */
@@ -534,7 +534,7 @@ footer{
 
 /* Стиль кнопки */
 .modal-button {
-  background: #D2691E; /* Темно-коричневий */
+  background: #5e5f61; /* Темно-коричневий */
   color: #fff;
   font-size: 18px;
   padding: 12px;
@@ -557,7 +557,7 @@ footer{
 }
 .myname {
   width: 100%;
-  background-color: #FAEBD7; /* Кремовий фон для тексту */
+  background-color: #c4c7cf; /* Кремовий фон для тексту */
   color: #333333; /* Темний текст */
   padding: 15px;
   border-radius: 5px;
@@ -566,4 +566,5 @@ footer{
   text-align: center;
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
   margin-top: 15px;
+  border: 2px solid #000000;
 }
