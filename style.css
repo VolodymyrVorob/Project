@@ -510,7 +510,7 @@ footer{
 .shatl-name, .delivery-name, .room-name, .souvenirs-name {
   width: 100%;
   background-color: #c4c7cf; /* Кремовий фон для тексту */
-  color: #333333; /* Темний текст */
+  color: #000000; /* Темний текст */
   padding: 15px;
   border-radius: 5px;
   font-size: 20px;
@@ -558,7 +558,7 @@ footer{
 .myname {
   width: 100%;
   background-color: #c4c7cf; /* Кремовий фон для тексту */
-  color: #333333; /* Темний текст */
+  color: #000000; /* Темний текст */
   padding: 15px;
   border-radius: 5px;
   font-size: 20px;
